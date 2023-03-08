@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Nunito:ital,wght@0,400;0,800;0,900;1,700;1,1000&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Sacramento&family=Sevillana&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-center{
+  text-align: center;
+  background-color: coral;
+  color: #DC0000;
+}
+
+.bg-red{
+    background:   
+      linear-gradient(105deg, rgba(255, 99, 71, 0.8) 50%, rgb(255, 165, 0) 50%) center top / 400px 60px no-repeat,
+       center top, 
+    #A2B5BB;
+    border-radius: 8px;;
+  
+}
+
+.mx-auto{
+  margin: auto;
+  max-width: 30vw;
+  flex-direction: column;
+  display: flex;
+}
+
+.item-center{
+  align-items: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.button{
+  font-size: 23px;
+  padding: 20px;
+  width: 66px;
+  margin: 0 3px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.AC{
+  padding-left: auto;
+  color: #DC0000;
+  background-color: #222222;
+}
+
+#br{
+  background-color: #7DCE13;
+  color: #FFFFFF;
+}
